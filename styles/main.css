@@ -1,0 +1,8 @@
+:root {
+    --color-blue:blue;
+    --color-purple:purple;
+}
+
+button {
+    border: none;
+}
