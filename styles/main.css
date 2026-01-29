@@ -3,6 +3,11 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+
+            &::selection {
+                background-color:bisque;
+                color: black;
+            }
         }
 
         body {
@@ -20,7 +25,7 @@
         }
 
         :root {
-            --blue-dark: oklch(54.6% 0.245 262.881);
+            --blue-dark: #155dfb;
             --purple: oklch(55.8% 0.288 302.321);
             --blue-light: #c0d8f0;
             --accent-color: #e74c3c;
@@ -59,11 +64,6 @@
             color: var(--blue-dark);
         }
 
-        h1,
-        h2 {
-            color: blue;
-        }
-
         .heading-section-main {
             margin: 0;
             color: var(--blue-dark);
@@ -71,7 +71,6 @@
         }
 
         .button-blue {
-            margin: auto;
             background-color: var(--blue-dark);
             color: white;
             display: flex;

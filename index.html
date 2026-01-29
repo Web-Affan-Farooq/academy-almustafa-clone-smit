@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,45 +9,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./courses.css">
+    <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/features.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
+
 <body>
     <!-- Header -->
-<header>
-    <div class="container header-container">
-        <img src="./images/logo.png" alt="" class="logo">
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="mobile-menu-btn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    <header>
+        <div class="container header-container">
+            <img src="./images/logo.png" alt="" class="logo">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>  
 
     <!-- Hero Section -->
-    <!-- <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Building Skills
-For a Successful Future. </h1>
-            <p>We help students build practical digital skills, boost confidence, and grow with hands-on learning in a supportive environment.</p>
-            <div class="hero-btns">
-                <a href="#courses" class="btn">Get started today</a>
+     <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Building Skills <span class="highlight">For a Successful Future.</span> </h1>
+                <p class="p-big">We help students build practical digital skills, boost confidence, and grow with
+                    hands-on learning in a supportive environment.</p>
+                <button type="button" class="button-blue">Get started today</button>
+            </div>
+            <div class="hero-img-container">
+                <img src="./images/banner.png" alt="hero-image">
             </div>
         </div>
-        <div class="hero-img-container">
-<img src="./images/banner.png" alt="hero-image">
-        </div>
-    </section> -->
+    </section> 
 
     <!-- Course category section -->
-     <!-- <section class="courses" id="features">
+    <section class="courses" id="features">
         <div class="container">
             <div class="section-title">
                 <span class="highlight">COURSE CATEGORIES</span>
@@ -83,8 +88,56 @@ For a Successful Future. </h1>
             </div>
             <button type="button" class="button-blue">Learn more </button>
         </div>
-    </section> -->
+    </section> 
 
+    <section class="features">
+        <div class="features-head">
+                    <span>WHO WE ARE</span>
+        <h1>
+            Why Choose <span class="highlight">AL-Mustafa Academy?</span>
+        </h1>
+
+        </div>
+
+        <div class="features-container" >
+            <div class="features-cards-container">
+
+                <div class="features-card">
+                    <div class="img">
+                        <div class="circle"></div>
+                    </div>
+
+                    <div>
+                        <h2>Expert Instructors</h2>
+                        <p class="p-sm">Our courses are taught by experienced teachers who know their field well. They share
+                            practical knowledge and guide students step by step to succeed in real work.</p>
+                    </div>
+                </div>
+                <div class="features-card">
+                    <div class="img">
+                        <div class="circle"></div>
+                    </div>
+                    <div>
+                        <h2>Expert Instructors</h2>
+                        <p class="p-sm">Our courses are taught by experienced teachers who know their field well. They share
+                            practical knowledge and guide students step by step to succeed in real work.</p>
+                    </div>
+                </div>
+                <div class="features-card">
+                    <div class="img">
+                        <div class="circle"></div>
+                    </div>
+                    <div>
+                        <h2>Expert Instructors</h2>
+                        <p class="p-sm">Our courses are taught by experienced teachers who know their field well. They share
+                            practical knowledge and guide students step by step to succeed in real work.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./images/features.jpg" alt="features">
+        </div>
+
+    </section> -->
     <!-- Testimonials Section -->
     <!-- <section class="testimonials" id="testimonials">
         <div class="container">
@@ -95,7 +148,8 @@ For a Successful Future. </h1>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"The Quran memorization course helped me connect deeply with the Holy Book. The teachers are incredibly knowledgeable and patient."</p>
+                        <p>"The Quran memorization course helped me connect deeply with the Holy Book. The teachers are
+                            incredibly knowledgeable and patient."</p>
                     </div>
                     <div class="testimonial-author">
                         <img src="example.jpg" alt="Student" class="author-img">
@@ -107,7 +161,8 @@ For a Successful Future. </h1>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"I've gained profound insights into Islamic teachings through the Islamic Studies program. Highly recommend to anyone seeking authentic knowledge."</p>
+                        <p>"I've gained profound insights into Islamic teachings through the Islamic Studies program.
+                            Highly recommend to anyone seeking authentic knowledge."</p>
                     </div>
                     <div class="testimonial-author">
                         <img src="example.jpg" alt="Student" class="author-img">
@@ -119,7 +174,8 @@ For a Successful Future. </h1>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-content">
-                        <p>"Learning Arabic here has transformed my understanding of the Quran. The curriculum is well-structured and the teachers are excellent."</p>
+                        <p>"Learning Arabic here has transformed my understanding of the Quran. The curriculum is
+                            well-structured and the teachers are excellent."</p>
                     </div>
                     <div class="testimonial-author">
                         <img src="example.jpg" alt="Student" class="author-img">
@@ -145,12 +201,13 @@ For a Successful Future. </h1>
     </section> -->
 
     <!-- Footer -->
-    <!-- <footer>
+    <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>Academy AlMustafa</h3>
-                    <p>Dedicated to providing authentic Islamic education and Quran learning to students worldwide.</p>
+                    <img src="./images/logo.png" alt="" class="logo"><br> <br>
+                    <p>Al Mustafa Academy is committed to quality education and holistic development, providing programs
+                        that empower students with knowledge and skills for a successful future.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -159,23 +216,53 @@ For a Successful Future. </h1>
                     </div>
                 </div>
                 <div class="footer-col">
-                    <h3>Quick Links</h3>
+                    <h3>Our courses</h3>
                     <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#courses">Courses</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Web Development basics </a>
+                        </li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Web Development basics </a>
+                        </li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Web Development basics </a>
+                        </li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Web Development basics </a>
+                        </li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Web Development basics </a>
+                        </li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Web Development basics </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>Popular Courses</h3>
+                    <h3>Explore</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Quran Memorization</a></li>
-                        <li><a href="#">Islamic Studies</a></li>
-                        <li><a href="#">Arabic Language</a></li>
-                        <li><a href="#">Hadith Studies</a></li>
-                        <li><a href="#">Fiqh & Jurisprudence</a></li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <img src="./images/chevron.svg" alt="">
+                            <a href="#home">Home</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -189,6 +276,7 @@ For a Successful Future. </h1>
                 <p>&copy; 2026 Academy AlMustafa. All Rights Reserved. | Designed with Islamic Values</p>
             </div>
         </div>
-    </footer> -->
+    </footer>
 </body>
+
 </html>

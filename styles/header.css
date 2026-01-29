@@ -21,10 +21,13 @@ header {
     height: 40px;
 }
 
+
 nav ul {
+    color: var(--text-color);
     display: flex;
     list-style: none;
     margin: 0;
+    background-color: white;
     padding: 0;
 }
 
@@ -34,10 +37,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--text-color);
     font-weight: 500;
+    color: var(--light-text);
     transition: var(--transition);
     position: relative;
+    font-weight: bold;
     display: block;
     padding: 5px 0;
 }
@@ -78,7 +82,7 @@ nav ul li a:hover::after {
         display: block;
         z-index: 1001;
     }
-    
+
     nav {
         position: absolute;
         top: 100%;
@@ -90,11 +94,12 @@ nav ul li a:hover::after {
         max-height: 0;
         transition: max-height 0.3s ease-in-out;
     }
-    
-    .menu-toggle:checked ~ nav {
-        max-height: 500px; /* Adjust based on your menu height */
+
+    .menu-toggle:checked~nav {
+        max-height: 500px;
+        /* Adjust based on your menu height */
     }
-    
+
     nav ul {
         flex-direction: column;
         padding: 20px 0;
@@ -103,24 +108,24 @@ nav ul li a:hover::after {
         transform: translateY(-10px);
         transition: opacity 0.3s ease, transform 0.3s ease;
     }
-    
-    .menu-toggle:checked ~ nav ul {
+
+    .menu-toggle:checked~nav ul {
         opacity: 1;
         transform: translateY(0);
     }
-    
+
     nav ul li {
         margin: 0;
         text-align: center;
         width: 100%;
     }
-    
+
     nav ul li a {
         padding: 15px 20px;
         width: 100%;
         text-align: center;
     }
-    
+
     nav ul li a:hover {
         background-color: rgba(var(--primary-color-rgb, 0, 123, 255), 0.1);
     }
@@ -131,7 +136,7 @@ nav ul li a:hover::after {
     .header-container {
         padding: 15px 0;
     }
-    
+
     .logo h1 {
         font-size: 1.6rem;
     }
@@ -141,7 +146,7 @@ nav ul li a:hover::after {
     .logo h1 {
         font-size: 1.4rem;
     }
-    
+
     .mobile-menu-btn {
         font-size: 1.3rem;
     }
